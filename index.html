@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bandulan Tea - CV. Budi Djaya Pekalongan</title>
+    <link rel="icon" type="image/x-icon" href="/images/bdl_logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/style.css">
+
+</head>
+<body class="font-sans antialiased">
+
+    <header class="header-bg text-white py-6 relative">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <div class="md:text-left">
+                <a href="index.html" class="text-4xl font-bold">Bandulan Tea</a>
+                <p class="text-xl">Since 1933</p>
+            </div>
+            <nav>
+                <ul class="desktop-menu flex space-x-6 text-lg">
+                    <li><a href="#about" class="hover:text-gray-200">About Us</a></li>
+                    <li><a href="#process" class="hover:text-gray-200">Our Process</a></li>
+                    <li><a href="#value" class="hover:text-gray-200">Product Value</a></li>
+                    <li><a href="#products" class="hover:text-gray-200">Our Products</a></li>
+                    <li><a href="#contact" class="hover:text-gray-200">Contact</a></li>
+                </ul>
+                <div class="mobile-menu relative">
+                    <button id="burger-menu" class="focus:outline-none">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                        </svg>
+                    </button>
+                </div>
+            </nav>
+        </div>
+        <div id="mobile-nav" class="mobile-nav bg-green-600 text-white w-full absolute left-0 top-full">
+            <ul class="text-center py-4">
+                <li class="mb-2"><a href="#about" class="block text-xl py-2 hover:bg-green-500">About Us</a></li>
+                <li class="mb-2"><a href="#process" class="block text-xl py-2 hover:bg-green-500">Our Process</a></li>
+                <li class="mb-2"><a href="#value" class="block text-xl py-2 hover:bg-green-500">Product Value</a></li>
+                <li class="mb-2"><a href="#products" class="block text-xl py-2 hover:bg-green-500">Our Products</a></li>
+                <li class="mb-auto"><a href="#contact" class="block text-xl py-2 hover:bg-green-500">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    
+    
+    <section id="about" class="pb-16 bg-green-100 px-4" style="padding-top: 160px;">
+        <div class="container mx-auto flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2">
+                <img src="images/sample_tea.jpg" alt="About Bandulan Tea" class="w-full h-auto mb-8 md:mb-0 rounded-lg shadow-lg">
+            </div>
+            <div class="md:w-1/2 md:pl-12">
+                <h2 class="text-4xl font-semibold mb-4 section-title">Dari Kami untuk Kita Semua</h2>
+                <p class="text-lg leading-relaxed mb-4 section-subtitle">Bandulan Tea was created by CV. Budi Djaja, a company based in Pekalongan. Our tea has been a staple since 1933, known for its unique flavor and quality.</p>
+                <p class="text-lg leading-relaxed mb-4 section-subtitle">Our commitment to excellence has made Bandulan Tea a beloved brand across generations. We take pride in our heritage and strive to continue delivering the best tea experience to our customers.</p>
+                <p class="text-lg leading-relaxed section-subtitle">Join us on a journey through the rich history and tradition of Bandulan Tea, and discover why we have been a trusted name in tea for over 90 years.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="process" class="py-32 bg-white px-4">
+        <div class="container mx-auto">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 md:pr-8">
+                    <h2 class="text-4xl font-semibold mb-6 section-title">Perdjuangan di Setiap Cangkir</h2>
+                    <p class="text-lg leading-relaxed mb-4 section-subtitle">Discover the meticulous process behind creating the perfect cup of Bandulan Tea.</p>
+                    <p class="text-lg leading-relaxed mb-4 section-subtitle">From selecting the finest tea leaves to blending and packaging, every step is carefully curated to ensure the highest quality and flavor.</p>
+                </div>
+                <div class="md:w-1/2 mt-8 md:mt-0">
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                        <div class="process-step bg-gray-200 p-6 rounded-lg shadow-lg">
+                            <h3 class="text-2xl font-bold mb-2">Step 1</h3>
+                            <p class="text-gray-700">Harvesting the finest tea leaves from our trusted plantations.</p>
+                        </div>
+                        <div class="process-step bg-gray-200 p-6 rounded-lg shadow-lg">
+                            <h3 class="text-2xl font-bold mb-2">Step 2</h3>
+                            <p class="text-gray-700">Carefully drying and processing the leaves to preserve flavor.</p>
+                        </div>
+                        <div class="process-step bg-gray-200 p-6 rounded-lg shadow-lg">
+                            <h3 class="text-2xl font-bold mb-2">Step 3</h3>
+                            <p class="text-gray-700">Blending tea leaves with natural ingredients for distinct flavors.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="value" class="py-16 bg-gray-100 px-4">
+        <div class="container mx-auto">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-full md:max-w-4xl md:mx-auto md:pr-8">
+                    <h2 class="text-4xl font-semibold mb-6 section-title text-center mb-16">Favorit Semua Kalangan</h2>
+                    <div class="flex flex-wrap md:flex-nowrap justify-center md:justify-between pt-8">
+                        <div class="w-full md:w-1/3 md:flex-1 flex flex-col items-center mb-8 md:mb-0 px-4">
+                            <div class="w-16 h-16 flex items-center justify-center mb-2 rounded-full bg-green-600 text-white text-xl font-bold">1</div>
+                            <div class="bg-white p-4 shadow-lg rounded-lg text-center">
+                                <h3 class="text-lg font-bold mb-2">Natural Sweetener</h3>
+                                <p class="text-gray-700">Enjoy a naturally sweet taste without added sugars.</p>
+                            </div>
+                        </div>
+                        <div class="w-full md:w-1/3 md:flex-1 flex flex-col items-center mb-8 md:mb-0 px-4">
+                            <div class="w-16 h-16 flex items-center justify-center mb-2 rounded-full bg-green-600 text-white text-xl font-bold">2</div>
+                            <div class="bg-white p-4 shadow-lg rounded-lg text-center">
+                                <h3 class="text-lg font-bold mb-2">Unique Aftertaste</h3>
+                                <p class="text-gray-700">Discover a distinctive aftertaste that lingers pleasantly.</p>
+                            </div>
+                        </div>
+                        <div class="w-full md:w-1/3 md:flex-1 flex flex-col items-center mb-8 md:mb-0 px-4">
+                            <div class="w-16 h-16 flex items-center justify-center mb-2 rounded-full bg-green-600 text-white text-xl font-bold">3</div>
+                            <div class="bg-white p-4 shadow-lg rounded-lg text-center">
+                                <h3 class="text-lg font-bold mb-2">Comfortable in the Throat</h3>
+                                <p class="text-gray-700">Smooth and soothing, perfect for a relaxing tea experience.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    <section id="products" class="pt-32 pb-16 bg-green-100 px-4">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-semibold mb-6 section-title">Produk Kebanggaan Kami</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="product bg-white p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+                    <img src="images/bdl_gelas.jpg" alt="Bandulan Tea Cup" class="w-full h-48 object-cover mb-4 rounded-lg">
+                    <h3 class="text-2xl font-bold mb-2 product-title">Bandulan Tea Cup</h3>
+                    <p class="text-gray-700 product-description">Our Ready to Drink Version of Bandulan with Natural Sweetener.</p>
+                </div>
+                <div class="product bg-white p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+                    <img src="images/bdl_serbuk.jpg" alt="Bandulan Tea Bubuk" class="w-full h-48 object-cover mb-4 rounded-lg">
+                    <h3 class="text-2xl font-bold mb-2 product-title">Bandulan Tea Bubuk</h3>
+                    <p class="text-gray-700 product-description">Refreshing Tea Herbs Packed with Paper.</p>
+                </div>
+                <div class="product bg-white p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+                    <img src="images/bdl_celup.jpeg" alt="Bandulan Tea Celup" class="w-full h-48 object-cover mb-4 rounded-lg">
+                    <h3 class="text-2xl font-bold mb-2 product-title">Bandulan Tea Celup</h3>
+                    <p class="text-gray-700 product-description">Ready to Serve Tea Bag Version of Bandulan.</p>
+                </div>
+                <div class="product bg-white p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+                    <img src="images/bdl_water.png" alt="Bandulan Mineral Water" class="w-full h-48 object-cover mb-4 rounded-lg">
+                    <h3 class="text-2xl font-bold mb-2 product-title">Bandulan Mineral Water</h3>
+                    <p class="text-gray-700 product-description">Our Latest Product on Mineral Water.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-16 bg-gray-200 px-4">
+        <div class="container mx-auto">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-full md:max-w-4xl md:mx-auto md:pr-8">
+                    <h2 class="text-4xl font-semibold mb-6 section-title">Contact Us</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        <div class="flex flex-col items-center">
+                            <div class="text-lg flex flex-col items-center justify-center h-full">
+                                <p class="font-bold mb-2">Email</p>
+                                <a href="mailto:example@example.com" class="text-gray-700 hover:text-green-600 transition-colors duration-300">example@example.com</a>
+                            </div>
+                        </div>
+                        <div class="flex flex-col items-center">
+                           
+                            <div class="text-lg flex flex-col items-center justify-center h-full">
+                                <p class="font-bold mb-2">Phone</p>
+                                <a href="tel:+123456789" class="text-gray-700 hover:text-green-600 transition-colors duration-300">+1 234 56789</a>
+                            </div>
+                        </div>
+                        <div class="flex flex-col items-center">
+                            
+                            <div class="text-lg flex flex-col items-center justify-center h-full">
+                                <p class="font-bold mb-2">Address</p>
+                                <p class="text-gray-700">123 Example St, City, Country</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-center mt-8 space-x-4">
+                        <a href="#" class="text-gray-700 hover:text-green-600 transition-colors duration-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 2a8 8 0 0 0-8 8c0 3.526 2.872 6.303 6.057 6.494.33.042.469-.144.469-.324 0-.162-.006-.59-.009-1.16-2.215.48-2.679-1.061-2.679-1.061-.362-.92-.884-1.165-.884-1.165-.723-.495.055-.485.055-.485.8.056 1.22.824 1.22.824.712 1.218 1.868.865 2.324.662.072-.517.278-.865.505-1.064-1.773-.202-3.633-.887-3.633-3.945 0-.872.312-1.588.824-2.147-.083-.202-.36-1.015.079-2.118 0 0 .67-.215 2.2.82.638-.178 1.32-.266 2-.27.68.004 1.362.092 2 .27 1.53-1.035 2.198-.82 2.198-.82.44 1.103.162 1.916.08 2.118.514.559.824 1.275.824 2.147 0 3.066-1.863 3.74-3.643 3.937.286.248.543.735.543 1.482 0 1.07-.01 1.93-.01 2.193 0 .18.138.37.473.323C17.13 16.303 20 13.526 20 10a8 8 0 0 0-8-8Z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-gray-700 hover:text-green-600 transition-colors duration-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 2a8 8 0 0 0-8 8c0 3.526 2.872 6.303 6.057 6.494.33.042.469-.144.469-.324 0-.162-.006-.59-.009-1.16-2.215.48-2.679-1.061-2.679-1.061-.362-.92-.884-1.165-.884-1.165-.723-.495.055-.485.055-.485.8.056 1.22.824 1.22.824.712 1.218 1.868.865 2.324.662.072-.517.278-.865.505-1.064-1.773-.202-3.633-.887-3.633-3.945 0-.872.312-1.588.824-2.147-.083-.202-.36-1.015.079-2.118 0 0 .67-.215 2.2.82.638-.178 1.32-.266 2-.27.68.004 1.362.092 2 .27 1.53-1.035 2.198-.82 2.198-.82.44 1.103.162 1.916.08 2.118.514.559.824 1.275.824 2.147 0 3.066-1.863 3.74-3.643 3.937.286.248.543.735.543 1.482 0 1.07-.01 1.93-.01 2.193 0 .18.138.37.473.323C17.13 16.303 20 13.526 20 10a8 8 0 0 0-8-8Z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-gray-700 hover:text-green-600 transition-colors duration-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V2zm8 2a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-2zm-1 13a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm1-9a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    <footer class="bg-gray-200 text-gray-700 py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Bandulan Tea. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
